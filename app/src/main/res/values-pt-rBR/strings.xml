@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Track and Make</string>
+    <string name="title_activity_login_scrolling">Procure e Faca</string>
+    <string name="large_text">Grande texto</string>
+    <string name="action_settings">Configuracoes</string>
+    <string name="title_activity_add_recipe_scrolling">Adicionar Receitas</string>
+    <string name="title_activity_recipe_detail_scrolling">Detalhes da Receita</string>
+    <string name="duration">Duracão</string>
+    <string name="add">Adcionar</string>
+    <string name="cancelButton">Cancelar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="add_the_recipes_name">Nome da Receita</string>
+    <string name="add_ingredients">Ingredientes</string>
+    <string name="how_to_prepare">Como preparar</string>
+    <string name="login">Login</string>
+    <string name="enterpassword">Insira sua senha</string>
+    <string name="enterusername">Insira seu nome</string>
+    <string name="trackandmake">Procure e faca</string>
+    <string name="signi">Signin</string>
+    <string name="textview1">texto</string>
+    <string name="add_recipe">Adcionar Receitas</string>
+    <string name="view_recipes">Ver a Receita</string>
+    <string name="deleterecipe">Deletar a receita</string>
+    <string name="updaterecipe">Atualizar a receita</string>
+    <string name="textview2">texto</string>
+    <string name="difficulty_of_the_recipe">Dificuldade</string>
+    <string name="enter_email">Insira o email</string>
+    <string name="enter_user_name">Insira o nome</string>
+    <string name="track_and_make">Procure e faca</string>
+    <string name="signin">Signin</string>
+    <string name="enter_password">Insira a senha</string>
+    <string name="repeat_password">Repetir a senha</string>
+    <string name="insert_the_id_of_the_recipe">Insira o id da receita</string>
+    <string name="update">Atualizar</string>
+    <string name="update_recipe">Atualizar Receita</string>
+    <string name="textview3">texto</string>
+    <string name="textview4">texto</string>
+    <string name="prepare">Preparacão</string>
+    <string name="votes">Votos</string>
+    <string name="todo">fazer</string>
+    <string name="inserttheidofthe_recipe">Insira o id da receita</string>
+    <string name="delete">deletar</string>
+    <string name="delete_recipe">deletar receita</string>
+    <string name="fab">botao</string>
+    <string name="recipeName">Nome da receita</string>
+    <string name="ingredients">Ingredientes</string>
+    <string name="username">Nome de usuario</string>
+    <string name="title">Titulo</string>
+    <string name="cancelButtonDeletePage" translatable="false">Cancelar</string>
+    <string name="textview">Bem Vindo</string>
+    <string name="view_all_recipes">Ver todas as receitas</string>
+    <string name="difficulty">Dificuldade</string>
+</resources>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:backgroundTint="#B0E9FF"
+    tools:context=".service.loginMainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="1000dp"><![CDATA[
+
+
+        @+id/signinButton"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="100dp"
+            android:text="Sign in"
+            app:layout_constraintEnd_toStartOf="@+id/guideline5"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/guideline6"
+            app:layout_constraintTop_toBottomOf="@+id/loginButton" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        ]]>
+
+        <EditText
+            android:id="@+id/editTextTextPassword2"
+            android:layout_width="0dp"
+            android:layout_height="44dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:ems="10"
+            android:fontFamily="@font/candal"
+            android:hint="@string/enter_email"
+            android:inputType="textPassword"
+            app:layout_constraintEnd_toStartOf="@+id/guideline5"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/guideline6"
+            app:layout_constraintTop_toBottomOf="@+id/userNameEditText"
+            android:autofillHints="" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/userNameEditText"
+            android:layout_width="0dp"
+            android:layout_height="044dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="@font/candal"
+            android:hint="@string/enter_user_name"
+            android:textColor="#192150"
+            app:layout_constraintEnd_toStartOf="@+id/guideline5"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/guideline6"
+            app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.97" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.03" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120dp"
+            android:fontFamily="@font/carter_one"
+            android:text="@string/track_and_make"
+            android:textAlignment="center"
+            android:textColor="#FD7F58"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toStartOf="@+id/guideline5"
+            app:layout_constraintHorizontal_bias="0.52"
+            app:layout_constraintStart_toStartOf="@+id/guideline6"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/signinButton"
+            android:layout_width="0dp"
+            android:layout_height="58dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="100dp"
+            android:text="@string/signin"
+            android:textColor="#87CCFA"
+            app:cornerRadius="10dp"
+            app:layout_constraintEnd_toStartOf="@+id/guideline5"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/guideline6"
+            app:layout_constraintTop_toBottomOf="@+id/textInputLayout9" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayout7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintEnd_toStartOf="@+id/guideline5"
+            app:layout_constraintStart_toStartOf="@+id/guideline6"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword2">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00FFFFFF"
+                android:fontFamily="@font/candal"
+                android:hint="@string/enter_password" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayout9"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="#00FFFFFF"
+            android:backgroundTint="#00FFFFFF"
+            android:hint="@string/repeat_password"
+            app:layout_constraintEnd_toStartOf="@+id/guideline5"
+            app:layout_constraintStart_toStartOf="@+id/guideline6"
+            app:layout_constraintTop_toBottomOf="@+id/textInputLayout7">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00FFFFFF"
+                android:fontFamily="@font/candal" />
+        </com.google.android.material.textfield.TextInputLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
